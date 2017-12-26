@@ -1,2 +1,9 @@
 gunicorn # ==19.3.0
 requests # ==2.9.1
+Flask
+pandas
+bokeh
+dill
+jinja2
+pip
+simplejson
