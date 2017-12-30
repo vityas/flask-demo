@@ -1,0 +1,21 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[dev-packages]
+
+
+
+[packages]
+
+gunicorn = "*"
+requests = "*"
+Flask = "*"
+pandas = "*"
+bokeh = "*"
+dill = "*"
+"Jinja2" = "*"
+simplejson = "*"
