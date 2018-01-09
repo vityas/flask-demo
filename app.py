@@ -94,8 +94,6 @@ def index():
 		app.vars['days'] = int(request.form['days'])
 		symbol = 		app.vars['ticket']
 		days =   		app.vars['days']
-		print 4*'*********'
-		print 4*'*********'
 
 		plot_ticket(symbol, days)
 		return render_template("lines.html")
